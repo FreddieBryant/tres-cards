@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+ font-size: 16px;
+}
+
 body {
+  height: 100%;
+  width: 100%;
   font-size: 1.6rem;
-  padding: 50px;
 }
 
 .container {
@@ -22,27 +27,24 @@ body {
   border: 2px solid orange;
 }
 
-img{
+img {
   float: left;
   margin: 16px;
   height: 80px;
   width: 75px;
 }
-.apply{
+.apply {
+  font-size: 1.5rem;
   padding-top: 30px;
 }
-.info{
+.info {
   padding-top: 20px;
 }
 
-.link{
-  display: inline-block;
+.link {
   padding-left: 20px;
   padding-top: 16px;
 }
-.icon{
-  display: inline-block;
-  
-}
+
 
 
