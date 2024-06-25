@@ -14,17 +14,28 @@ body {
   font-size: 1.6rem;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
+.header {
+  text-align: center;
 }
 
-.box {
-  margin: 20px;
-  width: 400px;
-  height: 200px;
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  padding: 20px 10px;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+.container .box {
+  max-width: 400px;
+  width: 100%;
   border: 2px solid orange;
+  border-radius: 16px;
+  padding: 10px;
 }
 
 img {
@@ -34,6 +45,7 @@ img {
   width: 75px;
 }
 .apply {
+  margin-top: -10px;
   font-size: 1.5rem;
   padding-top: 30px;
 }
@@ -42,8 +54,13 @@ img {
 }
 
 .link {
-  padding-left: 20px;
-  padding-top: 16px;
+  /* padding-left: 20px; */
+  /* padding-top: 16px; */
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 16px 0;
 }
 
 
